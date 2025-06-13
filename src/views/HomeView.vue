@@ -16,15 +16,20 @@
       </div>
     </div>
   </div>
+  <AboutCom/>
+  <SkillsCom/>
 </template>
 
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
-
+import AboutCom from '@/components/AboutCom.vue';
+import SkillsCom from '@/components/SkillsCom.vue';
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    HelloWorld,
+    AboutCom,
+    SkillsCom
   }
 }
 </script>
