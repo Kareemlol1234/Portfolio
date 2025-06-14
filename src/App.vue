@@ -7,6 +7,7 @@
   <NavCom/>
   
   <router-view/>
+  <FotterCom/>
 </template>
 
 
@@ -14,11 +15,13 @@
 <script>
 
 import NavCom from '@/components/NavCom.vue';
+import FotterCom from './components/FotterCom.vue';
 
 export default {
   name: "App",
   components:{
-    NavCom
+    NavCom,
+    FotterCom   
   }
 }
 </script>

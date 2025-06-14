@@ -12,24 +12,27 @@
           <a href=""><i class="fa-brands fa-facebook"></i></a>
           <a href="https://discordapp.com/users/777644730484916245"><i class="fa-brands fa-discord"></i></a>
         </div>
-        <button><router-link to="/AboutView">Learn More</router-link></button>
+        <button><router-link to="/about">Learn More</router-link></button>
       </div>
     </div>
   </div>
   <AboutCom/>
   <SkillsCom/>
+  <ContactCom/>
 </template>
 
 <script>
 import HelloWorld from '@/components/HelloWorld.vue'
 import AboutCom from '@/components/AboutCom.vue';
 import SkillsCom from '@/components/SkillsCom.vue';
+import ContactCom from '@/components/ContactCom.vue';
 export default {
   name: 'HomeView',
   components: {
     HelloWorld,
     AboutCom,
-    SkillsCom
+    SkillsCom,
+    ContactCom
   }
 }
 </script>
