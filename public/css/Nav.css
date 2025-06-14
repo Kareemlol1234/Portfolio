@@ -44,3 +44,40 @@ nav ul li a:hover{
 .logo img{
     height: 100px;
 }
+.menu-toggle{
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    padding-right: 20px;
+}
+@media (max-width: 768px){
+    nav ul{
+        display: none;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        padding: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 998;
+    }
+    nav ul.open{
+        display: flex;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    nav{
+        flex: row;
+        justify-content: space-between;
+    }
+    nav ul li{
+        padding: 10px 0;
+        text-align: center;
+    }
+}
