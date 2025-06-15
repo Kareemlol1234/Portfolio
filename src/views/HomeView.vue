@@ -1,4 +1,5 @@
 <template>
+  <link rel="stylesheet" href="css/Home.css">
   <div class="home" :style="{ backgroundImage: 'url(/imgs/Hero.jpg)' }">
     <div class="container">
       <div class="Home_info">
@@ -18,6 +19,7 @@
   </div>
   <AboutCom/>
   <SkillsCom/>
+  <ServicesCom/>
   <ContactCom/>
 </template>
 
@@ -26,83 +28,17 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import AboutCom from '@/components/AboutCom.vue';
 import SkillsCom from '@/components/SkillsCom.vue';
 import ContactCom from '@/components/ContactCom.vue';
+import ServicesCom from '@/components/ServicesCom.vue';
 export default {
   name: 'HomeView',
   components: {
     HelloWorld,
     AboutCom,
     SkillsCom,
-    ContactCom
+    ContactCom,
+    ServicesCom
   }
 }
 </script>
 
-<style scoped>
-.home {
-  background-color: rgba(0, 0, 0, 0.4);
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-  width: 100%;
-  height: 95vh;
-}
-.Home_info{
-  padding-top: 250px;
-  padding-left: 70px;
-}
-.Home_info .title h4{
- padding: 25px 0; 
- font-size: 35px;
-}
-.social_media_icons{
-  width: 10%;
-  display: flex;
-  justify-content: space-between ;
-  gap: 20px;
-}
-.social_media_icons i{
-  font-size: 45px;
-  gap: 8px;
-  color: #cbcbcd;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.social_media_icons .fa-whatsapp{
-  color: #36cd1f;
-}
-.social_media_icons .fa-whatsapp:hover{
-  color: #2c9d1b;
-}
-.social_media_icons .fa-facebook{
-  color: #2427f4;
-}
-.social_media_icons .fa-facebook:hover{
-  color: #191ccd;
-}
-.social_media_icons .fa-discord{
-  color: #ffffffeb;
-}
-.social_media_icons .fa-discord:hover{
-  color: #ffffffa7;
-}
-.social_media_icons .fa-github:hover{
-  color: #a7a7ba;
-}
-.Home_info button{
-  margin-top: 30px;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  padding: 6px;
-  font-size: 25px;
-  background-color: #31f3eb;
-  transition: 0.3s;
-}
-.Home_info button:hover{
-  background-color: #20918e;
-}
-.Home_info button a{
-  color: #000;
-  text-decoration: none;
-}
-</style>
+

@@ -20,7 +20,7 @@
             <li><router-link to="/">Home</router-link></li>
             <li><router-link to="/about">About</router-link></li>
             <li><router-link to="/SkillsView">Skills</router-link></li>
-            <li><router-link to="/ServicesView">Services</router-link></li>
+            <li><router-link to="/ServicsView">Services</router-link></li>
             <li><router-link to="/ContactView">Contact</router-link></li>
           </ul>
         </div>
