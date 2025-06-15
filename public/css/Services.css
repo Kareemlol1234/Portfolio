@@ -1,0 +1,30 @@
+.Services{
+    margin-bottom: 100px;
+}
+.Services_title{
+    text-decoration: underline;
+    text-align: center;
+    margin:70px 0;
+}
+.img_container {
+    margin-left: 0;
+    padding-left: 0;
+}
+.img_container img{
+    width: 360px;
+    
+    margin-bottom: 100px;
+}
+.Services_info{
+    padding-top: 40px;
+    margin-left: 20;
+}
+.Services_info h3{
+    text-decoration: underline;
+}
+.Services_info h5{
+    margin-bottom: 30px;
+}
+.Services_info p{
+    letter-spacing: 1px;
+}
