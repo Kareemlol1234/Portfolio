@@ -10,7 +10,7 @@
         <div class="social_media_icons">
           <a href="https://github.com/Kareemlol1234"><i class="fa-brands fa-github"></i></a>
           <a href="https://wa.me/201006721385"><i class="fa-brands fa-whatsapp"></i></a>
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61577462731094&sk=about_work_and_education"><i class="fa-brands fa-facebook"></i></a>
           <a href="https://discordapp.com/users/777644730484916245"><i class="fa-brands fa-discord"></i></a>
         </div>
         <button><router-link to="/about">Learn More</router-link></button>

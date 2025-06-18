@@ -5,12 +5,12 @@
         <div class="col-12 col-md-6 fotter_info">
           <div class="texts">
             <h1>Kareem</h1>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Front-End Developer with responsive design.</p>
           </div>
           <div class="social-links-fotter">
             <a href="https://github.com/Kareemlol1234" target="_blank"><i class="fa-brands fa-github"></i></a>
             <a href="https://wa.me/201006721385" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61577462731094&sk=about_work_and_education" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://discordapp.com/users/777644730484916245" target="_blank"><i class="fa-brands fa-discord"></i></a>
           </div>
         </div>
@@ -28,13 +28,13 @@
 
       <div class="row">
         <div class="col-12 explain">
-          <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, a nostrum!</h6>
+          <h6>Skilled in HTML, CSS, JavaScript & Vue.js. I build modern and fast websites.</h6>
         </div>
       </div>
 
       <div class="row">
         <div class="col-12">
-          <h4>Contact: "kemodiaa707@gmail.com" or "01006721385"</h4>
+          <h4>Contact: "	kareem123456work@gmail.com" or "01006721385"</h4>
         </div>
       </div>
     </div>

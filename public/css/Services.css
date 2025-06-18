@@ -9,6 +9,8 @@
 .img_container {
     margin-left: 0;
     padding-left: 0;
+    align-items: center;
+    text-align: center;
 }
 .img_container img{
     width: 360px;
@@ -17,7 +19,6 @@
 }
 .Services_info{
     padding-top: 40px;
-    margin-left: 20;
 }
 .Services_info h3{
     text-decoration: underline;

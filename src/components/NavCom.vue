@@ -12,7 +12,6 @@
             <li><a href="#"><router-link to="/SkillsView">Skills</router-link></a></li>
             <li><a href="#"><router-link to="/ServicsView">Services</router-link></a></li>
             <li><a href="#"><router-link to="/ContactView">Contact</router-link></a></li>
-            <li><a href="#"><select><router-link to="/BlogView"><option>Blog</option></router-link></select></a></li>
         </ul>
     </nav>
 </template>
